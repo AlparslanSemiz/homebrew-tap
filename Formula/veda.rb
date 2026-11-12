@@ -1,8 +1,8 @@
 class Veda < Formula
   desc "Quits a Mac app when you close its last window"
   homepage "https://github.com/AlparslanSemiz/Veda"
-  url "https://github.com/AlparslanSemiz/Veda/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "8265e80136e716888ea94dc77ad9f599002ff7a26048c2d22a8085530ac104d6"
+  url "https://github.com/AlparslanSemiz/Veda/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "0f250e87421af9add79b177262d55b5106a85f0c3e2794941b03cd0d283abb1e"
   license "MIT"
 
   depends_on :macos
