@@ -1,8 +1,8 @@
 class Serit < Formula
   desc "Touch Bar app that stays put: dock, now playing, volume, brightness, weather"
   homepage "https://github.com/AlparslanSemiz/Serit"
-  url "https://github.com/AlparslanSemiz/Serit/archive/refs/tags/v1.2.0.tar.gz"
-  sha256 "28388a05dde1d21ac7d133dbd387b702f8aae51365171a949a4c90fdea258c5a"
+  url "https://github.com/AlparslanSemiz/Serit/archive/refs/tags/v1.3.0.tar.gz"
+  sha256 "7487e9fae7219d7943211001a5dd7ce32ba986e5958a30b663223f94e1b8d6fc"
   license "MIT"
 
   depends_on :macos
