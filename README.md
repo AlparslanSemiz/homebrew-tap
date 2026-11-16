@@ -1,5 +1,5 @@
 <h1 align="center">Homebrew tap</h1>
-<p align="center">Mac menu bar tools by Alparslan Semiz, installable with Homebrew.</p>
+<p align="center">Mac tools by Alparslan Semiz, installable with Homebrew.</p>
 
 <p align="center"><b>Install:</b> <code>brew install alparslansemiz/tap/serit</code></p>
 
@@ -16,4 +16,4 @@ brew install alparslansemiz/tap/veda       # quit apps when their last window cl
 
 Both build from source on your Mac, so they need Apple's Command Line Tools (`xcode-select --install`). Start them with `brew services start serit` or `brew services start veda`, then allow them under System Settings → Privacy & Security → Accessibility.
 
-Update with `brew update && brew upgrade serit veda`. Remove with `brew uninstall serit veda`.
+Update with `brew update && brew upgrade serit veda`. Remove with `brew services stop serit veda` followed by `brew uninstall serit veda`.
